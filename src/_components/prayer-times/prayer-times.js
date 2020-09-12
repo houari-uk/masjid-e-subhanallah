@@ -43,7 +43,7 @@ class PrayerTimes extends Component {
     } else {
       return [
         <tr key="asr1">
-          <th rowSpan="2">'Asr</th>
+          <th rowSpan="2">'Asr العصر</th>
           <td className="mithl-text">mithl 1</td>
           <td>{this.state.prayerTimes['asr_1_begins']}</td>
           <td rowSpan="2">{this.state.prayerTimes['asr_jamaah']}</td>
@@ -87,20 +87,20 @@ class PrayerTimes extends Component {
               <td>{this.state.prayerTimes['fajr_jamaah']}</td>
             </tr>
             <tr>
-              <th>Zuhr</th>
+              <th>Zuhr الظهر</th>
               <td />
               <td>{this.state.prayerTimes['zuhr_begins']}</td>
               <td>{this.state.prayerTimes['zuhr_jamaah']}</td>
             </tr>
             {asrRows}
             <tr>
-              <th>Maghrib</th>
+              <th>Maghrib المغرب</th>
               <td />
               <td>{this.state.prayerTimes['maghrib_begins']}</td>
               <td>{this.state.prayerTimes['maghrib_jamaah']}</td>
             </tr>
             <tr>
-              <th>Isha</th>
+              <th>Isha العشاء</th>
               <td />
               <td>{this.state.prayerTimes['isha_begins']}</td>
               <td>{this.state.prayerTimes['isha_jamaah']}</td>
