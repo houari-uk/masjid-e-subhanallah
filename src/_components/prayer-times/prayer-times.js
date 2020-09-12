@@ -81,7 +81,7 @@ class PrayerTimes extends Component {
           </thead>
           <tbody>
             <tr>
-              <th>Fajr</th>
+              <th>Fajr الفجر</th>
               <td />
               <td>{this.state.prayerTimes['fajr_begins']}</td>
               <td>{this.state.prayerTimes['fajr_jamaah']}</td>
