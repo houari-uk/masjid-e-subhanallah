@@ -6,7 +6,7 @@
   font-size: 3.5em;
   text-align: right;
   color: white;
-  margin-left: 100px;
+  margin-left: 60px;
   padding-top: 75px;
   width: 850px;
 }
@@ -23,7 +23,7 @@
 
 .PrayerTimes td,
 .PrayerTimes th {
-  margin: 150px;
+  margin: 160px;
   padding-bottom: 10px;
 }
 
