@@ -5,10 +5,10 @@
 .PrayerTimes {
   font-size: 3.5em;
   text-align: right;
-  color: yellow;
+  color: white;
   margin-left: 60px;
   padding-top: 75px;
-  width: 750px;
+  width: 950px;
 }
 
 .PrayerTimes th {
