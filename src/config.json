@@ -1,6 +1,6 @@
 {
   "buildNumber": "v6.0.0",
-  "sliderMode": "slider",
+  "sliderMode": "single-view",
   "slideTimeout": 8000,
   "googleSlides": {
     "url":
