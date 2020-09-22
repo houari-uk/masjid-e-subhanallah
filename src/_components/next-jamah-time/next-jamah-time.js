@@ -39,21 +39,21 @@ class NextJammahTime extends Component {
     var currentTime = this.getCurrentTime();
     if (this.stringToTime(`${currentDate['fajr_jamaah']} AM`) > currentTime) {
       return {
-        name: 'Fajr',
+        name: 'Fajr فجر',
         time: `${currentDate['fajr_jamaah']} AM`
       };
     }
 
     if (this.stringToTime(`${currentDate['zuhr_jamaah']} PM`) > currentTime) {
       return {
-        name: 'Zuhr',
+        name: 'Zuhr ظهر',
         time: `${currentDate['zuhr_jamaah']} PM`
       };
     }
 
     if (this.stringToTime(`${currentDate['asr_jamaah']} PM`) > currentTime) {
       return {
-        name: 'Asr',
+        name: 'Asr عصر',
         time: `${currentDate['asr_jamaah']} PM`
       };
     }
@@ -62,21 +62,21 @@ class NextJammahTime extends Component {
       this.stringToTime(`${currentDate['maghrib_jamaah']} PM`) > currentTime
     ) {
       return {
-        name: 'Maghrib',
+        name: 'Maghrib مغرب',
         time: `${currentDate['maghrib_jamaah']} PM`
       };
     }
 
     if (this.stringToTime(`${currentDate['isha_jamaah']} PM`) > currentTime) {
       return {
-        name: 'Isha',
+        name: 'Isha عشاء',
         time: `${currentDate['isha_jamaah']} PM`
       };
     }
 
     // if none return the next day fajr
     return {
-      name: 'Fajr',
+      name: 'Fajr فجر',
       time: `${tomorrowsPrayerTime['fajr_jamaah']} AM`
     };
   }
